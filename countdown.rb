@@ -7,37 +7,21 @@
 
 
 
-def countdown (number)
-<<<<<<< HEAD
-while number > 0
-  puts "#{number} SECOND(S)!"
-number -=1
+def countdown (seconds_to_midnight) #var number = seconds_to_midnight
+while seconds_to_midnight > 0 
+  puts "#{seconds_to_midnight} SECOND(S)!"
+seconds_to_midnight -=1
 end
  "HAPPY NEW YEAR!"
 end
 
-def countdown_with_sleep (number)
-while number > 0
-=======
-
-while number < 12
-  puts "#{number} SECOND(S)!"
-number -=1
-end
-puts "HAPPY NEW YEAR!"
-end
-
-def countdown_with_sleep (number)
-
-while number < 12
->>>>>>> cc074916ea0430d60503177e3441854828a83338
-  puts "#{number} SECOND(S)!"
+def countdown_with_sleep (seconds_to_midnight)
+while seconds_to_midnight > 0
+  puts "#{seconds_to_midnight} SECOND(S)!"
   sleep(1)
-number -=1
+seconds_to_midnight -=1
 end
-<<<<<<< HEAD
-"HAPPY NEW YEAR!"
-=======
 puts "HAPPY NEW YEAR!"
->>>>>>> cc074916ea0430d60503177e3441854828a83338
 end
+
+
