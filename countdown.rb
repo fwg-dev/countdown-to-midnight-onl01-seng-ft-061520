@@ -7,15 +7,15 @@
 
 
 
-def countdown (number) #var number = seconds_to_midnight
-while number < 12
+def countdown (12) #var number = seconds_to_midnight
+while number > 0 
   puts "#{number} SECOND(S)!"
-number +=1
+number -=1
 end
  "HAPPY NEW YEAR!"
 end
 
-def countdown_with_sleep (number)
+def countdown_with_sleep (12)
 while number > 0
   puts "#{number} SECOND(S)!"
   sleep(1)
