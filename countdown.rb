@@ -8,7 +8,7 @@
 
 
 def countdown (number) #var number = seconds_to_midnight
-while number > 0
+while number < 12
   puts "#{number} SECOND(S)!"
 number -=1
 end
